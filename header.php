@@ -41,6 +41,9 @@
     <!--GFONTS -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
     <!--END GFONTS-->
+	<!-- ANIMATE CSS -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+	<!-- END ANIMATE CSS -->
 	<script src="http://cdn.ckeditor.com/4.11.2/full/ckeditor.js"></script>
 	<link rel="icon" href="<?php echo bloginfo('template_url'); ?>/assets/img/favicon.png">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
@@ -74,7 +77,7 @@
 //echo echo bloginfo('template_url');
 ?>
 <div class="container">
-	<nav class="navbar navbar-expand-lg navbar-light">
+	<nav class="navbar navbar-expand-lg navbar-light animated fadeInDown">
 		<a class="navbar-brand" href="<?php echo home_url();?>"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/llamasec.png" alt="llamasec logo"
 											  id="navbar-brand"></a>
 		<button id="navbar-toggler" class="navbar-brand navbar-toggler" type="button" data-toggle="collapse"

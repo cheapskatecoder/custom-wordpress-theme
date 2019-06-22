@@ -3,7 +3,7 @@
 <section>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6" style="margin: auto;">
+			<div class="col-md-6 animated fadeInLeft" style="margin: auto;">
 				<h1 class="justify-content-center">llamasec</h1>
 				<p class="justify-content-center">This blog is dedicated to encompass my journey in the Infosec and the
 					Programming industry and
@@ -11,7 +11,7 @@
 					experience the adventures of a <code>script kiddie</code> to become a pro.
 				</p>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 animated fadeInRight">
 				<img id="headerimage" src="<?php echo bloginfo('template_url'); ?>/assets/img/header-web-security.png"
 					 alt="Vector designed obtained from the website VECTEEZY.com"
 					 class="img-fluid rounded">
@@ -22,8 +22,8 @@
 <br>
 
 <section>
-	<h2 class="h2 text-center">These are the three main things that I'd be focusing on mainly</h2>
-	<p id="lead-text text-center" class="section-lead">All of these topics are immense on their own and to cover them in it's
+	<h2 class="h2 text-center animated fadeIn">These are the three main things that I'd be focusing on mainly</h2>
+	<p id="lead-text text-center" class="section-lead animated fadeIn">All of these topics are immense on their own and to cover them in it's
 		entirety would be
 		impossible however, I try to cover most important aspects in extensive detail :)</p>
 	<div class="container">
