@@ -1,0 +1,98 @@
+
+.post-date {
+	background: #f4f4f4;
+	padding: 4px;
+}
+
+p {
+	justify-content: center;
+}
+
+.h1 {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+}
+
+.subscribe {
+	background-color: #2f2f2f;
+	color: white;
+}
+
+.slug {
+	width: 50%;
+}
+
+blockquote {
+	/*font-size: 1.4em;*/
+	width: 100%;
+	margin: 50px auto;
+	font-family: Open Sans;
+	font-style: italic;
+	color: #555555;
+	padding: 1.2em 30px 1.2em 75px;
+	border-left: 8px solid #78C0A8;
+	line-height: 1.6;
+	position: relative;
+	background: #EDEDED;
+}
+
+blockquote::before {
+	font-family: Arial;
+	content: "\201C";
+	color: #78C0A8;
+	font-size: 4em;
+	position: absolute;
+	left: 10px;
+	top: -10px;
+}
+
+blockquote::after {
+	content: '';
+}
+
+blockquote span {
+	display: block;
+	color: #333333;
+	font-style: normal;
+	font-weight: bold;
+	margin-top: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	justify-content: center;
+}
+
+p {
+	justify-content: center;
+}
+
+.excerpt {
+	word-wrap: break-word;
+}
+
+.circle .image-wrap {
+	-webkit-border-radius: 50em;
+	-moz-border-radius: 50em;
+	border-radius: 50em;
+}
+
+/*hide navbar brand in mobile view */
+@media screen and (max-width: 1000px) {
+	#navbar-brand {
+		visibility: hidden;
+		clear: both;
+		float: left;
+		margin: 10px auto 5px 20px;
+		width: 28%;
+		display: none;
+	}
+
+	#navbar-toggler {
+		margin: auto;
+	}
+
+	#header-web-security {
+		width: 360px;
+		height: 251px;
+	}
+}
